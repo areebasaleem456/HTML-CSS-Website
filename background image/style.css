@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-style: italic;
+}
+h3{
+    font-style: italic;
+}
+#box1{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    background-image: url("season.jpg");
+    background-size: cover;
+    position: static;
+}
+#box2{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    background-image: url("summer.jpg");
+    background-size: cover;
+    position: relative;
+    left:300px;
+}
+#box3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    background-image: url("winter.jpg");
+    background-size: cover;
+    position:sticky;
+    top:100px;
+}
+#box4{
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("autumn.jpg");
+    background-size: cover;
+    position: fixed;
+    right:2px;
+    bottom:190px;
+
+}
+#box5{
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    background-image: url("spring.jpg");
+    background-size: cover;
+    position: absolute;
+    top:1680px;
+    left:400px
+}
+body{
+    background-color:antiquewhite;
+}
